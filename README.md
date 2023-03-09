@@ -28,6 +28,7 @@ This will prompt up the GUI. In the GUI the following steps should be followed:
 * Click the save setup button. 
 
 Once those steps have been followed, the user can:
+
 * Preview the camera image to adjust the focus.
 * Test the two synchronisation LEDs are properly working.
 * Start a trial.
