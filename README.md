@@ -1,21 +1,25 @@
-# README #
+# InOB #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+InOb CAD files and python code for data acquisition.
 
-### What is this repository for? ###
+### What does this repository contain ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* CAD_files: Contains all the parts forming the InOb in STL and F3D formats. These can be printed in any 3d printer.
+* Code: Contains all the acquisition code necessary to run a GUI allowing for synchronized data acquisition from InOb using a raspberry pi 4B.
 
-### How do I get set up? ###
+### Setup ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+### Python installation ###
+To run the acquisition code you will need the following python packages:
+* serial, time, os, csv, multiprocessing, gpiozero, pyqtgraph, PyQt5
+
+### Running the code ###
+
+To run the GUI just execute the following line in the folder where the code is stored
+<code> python Instrumented_Object_GUI.py </code>
+
+This will prompt up the GUI interface. 
+
 
 ### Contribution guidelines ###
 
