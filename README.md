@@ -11,14 +11,17 @@ InOb CAD files and python code for data acquisition.
 
 #### Python installation ####
 To run the acquisition code you will need the following python packages:
+
 * serial, time, os, csv, multiprocessing, gpiozero, pyqtgraph, PyQt5
 
 #### Running the code ####
 
 To run the GUI just execute the following line in the folder where the code is stored
+
 <code> python Instrumented_Object_GUI.py </code>
 
 This will prompt up the GUI. In the GUI the following steps should be followed:
+
 * Setup the ID of the participant you will be testing with the object.
 * Setup the folder the data will be saved to.
 * Setup the camera resolution and framerate.
@@ -32,4 +35,4 @@ Once those steps have been followed, the user can:
 
 ### Contact ###
 
-* If you have any questions you can send them to david.cordovabulens@ucd.ie or stephen.redmond@ucd.ie
+If you have any questions you can send them to david.cordovabulens@ucd.ie or stephen.redmond@ucd.ie
