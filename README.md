@@ -10,9 +10,15 @@ InOb CAD files and python code for data acquisition.
 ### Setup ###
 
 #### Python installation ####
-To run the acquisition code you will need the following python packages:
+To run the acquisition code you will need to create a virtual environment and install all packages in requirements.txt.
 
-* serial, time, os, csv, multiprocessing, gpiozero, pyqtgraph, PyQt5
+<code> pip install --r requirements.txt </code>
+
+As for PyQt5, you should follow the explanations given in https://github.com/tranter/raspberry-pi-qt-builds.
+
+Once PyQt5 is installed, you can link it to your virtual environment by doing:
+
+<code> pip install vext.pyqt5 </code>
 
 #### Running the code ####
 
